@@ -3,7 +3,9 @@ import './reusable.css';
 
 export default function Link({href, children}) {
   return (
-    <a href={href}>{children}</a>
+    <div className='link-container'>
+        <a className='link' href={href}>{children}</a>
+    </div>
   )
 }
 
