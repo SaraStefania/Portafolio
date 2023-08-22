@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.bg-custom-color{
+    background-color: #1E1E1E;
+}
+img{
+    height: 50px;
+}
+.navLink{
+    color: #E0B0FF;
+    margin-right: 25px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+}
+.navLink:hover {
+    color: #E0B0FF; 
+}
+.navLink:active{
+  color: #E0B0FF;
+}

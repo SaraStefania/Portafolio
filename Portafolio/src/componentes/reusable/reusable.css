@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.subtitulo-container{
+    display: flex;
+    align-items: center;
+}
+.linea{ 
+  width: 5vh;
+  height: 1px;
+  background-color: #9B59B6;
+  margin-left: 15vh;
+}
+.sub{
+    font-weight: 200;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    font-size: 40px;
+}
