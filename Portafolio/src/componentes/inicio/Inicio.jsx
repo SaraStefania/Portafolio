@@ -8,8 +8,11 @@ export default function Inicio() {
       <div className='container'>
         <p className='subtitulo'>Hola, mi nombre es</p>
         <p className='titulo'>Sara Sierra</p>
-        <Subtitulo>Full stack developer</Subtitulo>
-        <Link>Sobre mi</Link>
+        <Subtitulo fontSize='40px'>Full stack developer</Subtitulo>
+        <div className='d-flex flex-wrap'>
+          <Link marginTop='5vh' href='/about'>Sobre mi</Link>
+          <Link marginLeft='3vh' marginTop='5vh' href='src/assets/CV Sara Sierra.pdf' download>Descargar CV</Link>
+        </div>
       </div>
     </div>
   )

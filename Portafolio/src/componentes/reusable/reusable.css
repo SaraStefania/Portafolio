@@ -18,7 +18,6 @@
     font-weight: 200;
     margin-left: 2vh;
     margin-top: 2vh;
-    font-size: 40px;
 }
 
 /* ---------------- Links ------------------- */
@@ -33,5 +32,24 @@
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
-    margin-top: 5vh;
+
+}
+
+/* ------------------- titulos ----------------- */
+.titu{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/* ---------------- Habilidades ---------------- */
+.habilidades{
+    color: white;
+    display: inline-block;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 10px;
 }
