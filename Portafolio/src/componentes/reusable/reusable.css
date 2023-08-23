@@ -37,17 +37,17 @@
 
 /* ------------------- titulos ----------------- */
 .titu{
-    color: white;
+    color: rgba(255, 255, 255, 0.888);
     font-weight: 600;
     font-size: 25px;
 }
 
 /* ---------------- Habilidades ---------------- */
 .habilidades{
-    color: white;
+    color: rgba(255, 255, 255, 0.653);
     display: inline-block;
     background-color: black;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.653);
     border-radius: 20px;
     font-weight: 600;
     padding: 10px 20px;

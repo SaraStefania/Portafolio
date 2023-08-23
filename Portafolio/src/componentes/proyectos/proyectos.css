@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,900;1,300&display=swap');
+.container-proyectos{
+    background-color: black;
+
+    padding: 10vh;
+}
+.imagen{
+    width: 40vh;
+    height: 40vh;
+    border-bottom: 1px solid  white;
+}
+.card{
+    width: 40vh;
+    background-color: white;
+    margin: 5vh;
+}
+.body{
+    background-color: #DCB4E2;
+}
+.tituloCard{
+    font-size:3vh;
+    color: #601e7b;
+    font-weight: 600;
+}
+
+.linkCard{
+    display: inline-block;
+    font-weight: 400;
+    border: 1px solid  #601e7b;
+    color:  #601e7b;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0 1vh 0 1vh;
+    margin: 1vh;
+}
+.linkCard:hover{
+    background-color: #9B59B6;
+    color: #DCB4E2;
+}

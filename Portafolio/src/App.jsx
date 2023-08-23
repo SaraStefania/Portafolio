@@ -1,21 +1,24 @@
-import { Route, Routes } from 'react-router-dom';
+
 import Header from './componentes/header/Header'
 import Inicio from './componentes/inicio/Inicio'
 import SobreMi from './componentes/about/SobreMi';
+import Proyectos from './componentes/proyectos/proyectos';
+import Experiencia from './componentes/experiencia/Experiencia';
+
 
 function App() {
 
 
   return (
-    <>
+    <div className='app'>
     <Header/>
-    <Routes>
-      <Route path="/" element={<Inicio/>}/>
-      <Route path="/about" element={<SobreMi/>}/>
-    </Routes>
+    <Inicio id='inicio'/>
+    <SobreMi id='about'/>
+    <Proyectos id='proyectos'/>
+    <Experiencia id='experiencia'/>
 
       
-    </>
+    </div>
   )
 }
 

@@ -2,14 +2,19 @@ import Subtitulo from '../reusable/Subtitulo';
 import Titulo from '../reusable/Titulo';
 import Link from '../reusable/Link';
 import Habilidades from '../reusable/habilidades';
+import { useEffect } from 'react';
 import './about.css'
 
 
 export default function SobreMi() {
+  useEffect(() => {
+    document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+  }, []);
+  
   return (
     <>
 
-      <div className='d-flex justify-content-center align-items-center container-about'>
+      <div id='about' className='d-flex justify-content-center align-items-center container-about'>
           <img className='foto' src="src/assets/foto.jpeg" ></img>
           <div className='container-sobreMi'>
               <Subtitulo>Sobre mi</Subtitulo>

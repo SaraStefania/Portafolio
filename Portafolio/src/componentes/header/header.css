@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    
-}
+
 
 .bg-custom-color{
     background-color: #1E1E1E;
@@ -16,6 +12,7 @@ img{
     margin-right: 25px;
     font-family: 'Source Sans 3', sans-serif;
     font-weight: 700;
+    text-decoration: none;
 }
 .navLink:hover {
     color: #E0B0FF; 
