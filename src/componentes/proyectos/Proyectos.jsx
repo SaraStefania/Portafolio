@@ -1,6 +1,6 @@
 import Subtitulo from '../reusable/Subtitulo';
 import Titulo from '../reusable/Titulo';
-import Tarjetas from './tarjetas';
+import Tarjetas from './Tarjetas';
 import { useEffect } from 'react';
 import './proyectos.css'
 
