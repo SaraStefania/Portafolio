@@ -1,8 +1,13 @@
-# React + Vite
+# Portafolio de Proyectos
+¡Bienvenido a mi portafolio de proyectos! Aquí encontrarás una variedad de proyectos en los que he trabajado
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción General
+Mi portafolio recopila proyectos que reflejan mis habilidades y experiencia en diversas áreas de la tecnología. A través de la creación de aplicaciones web, demuestro mi pasión por la programación y mi habilidad para resolver problemas de manera efectiva.
 
-Currently, two official plugins are available:
+En mi portafolio, encontrarás proyectos donde utilice tecnologías como HTML, CSS, JavaScript, React, y más.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Contacto
+Puedes contactarme a través de mi correo electrónico: sara.sierraramos@gmail.com
+También puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/sara-stefania-sierra-ramos/)
+
+
