@@ -16,7 +16,7 @@ export default function Header() {
     <Navbar expand="lg" className="bg-custom-color">
       <Container>
         <Navbar.Brand href="/">
-          <img src='src/assets/logoGato.png' alt="Logo" />
+          <img src='public/assets/logoGato.png' alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -33,8 +33,8 @@ export default function Header() {
               onClick={(e) => handleNavLinkClick(e, 'experiencia')}>
               Habilidades
             </a>
-            <LogosHeader href='https://github.com/SaraStefania' src="src/assets/githubHeader.png"/>
-            <LogosHeader  href='https://www.linkedin.com/in/sara-stefania-sierra-ramos/' src="src/assets/linkedinHeader.png" />  
+            <LogosHeader href='https://github.com/SaraStefania' src="public/assets/githubHeader.png"/>
+            <LogosHeader  href='https://www.linkedin.com/in/sara-stefania-sierra-ramos/' src="public/assets/linkedinHeader.png" />  
           </Nav>
         </Navbar.Collapse>
       </Container>

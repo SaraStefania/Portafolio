@@ -13,17 +13,17 @@ export default function Experiencia() {
     <Subtitulo>Mis habilidades</Subtitulo>
     <Titulo>Habilidades</Titulo>
     <div className='d-flex flex-wrap '>
-        <Logos src='src/assets/javascript.png'>Javascript</Logos>
-        <Logos src='src/assets/react.png'>React</Logos>
-        <Logos src='src/assets/node.png'>Node.js</Logos>
-        <Logos src='src/assets/java.png'>Java</Logos>
-        <Logos src='src/assets/sql.png'>SQL</Logos>
-        <Logos src='src/assets/css.png'>CSS</Logos>
-        <Logos src='src/assets/html.png'>HTML</Logos>
-        <Logos src='src/assets/bootstrap.png'>Bootstrap</Logos>
-        <Logos src='src/assets/github.png'>Github</Logos>
-        <Logos src='src/assets/firebase.png'>Firebase</Logos>
-        <Logos src='src/assets/figma.png'>Figma</Logos>
+        <Logos src='public/assets/javascript.png'>Javascript</Logos>
+        <Logos src='public/assets/react.png'>React</Logos>
+        <Logos src='public/assets/node.png'>Node.js</Logos>
+        <Logos src='public/assets/java.png'>Java</Logos>
+        <Logos src='public/assets/sql.png'>SQL</Logos>
+        <Logos src='public/assets/css.png'>CSS</Logos>
+        <Logos src='public/assets/html.png'>HTML</Logos>
+        <Logos src='public/assets/bootstrap.png'>Bootstrap</Logos>
+        <Logos src='public/assets/github.png'>Github</Logos>
+        <Logos src='public/assets/firebase.png'>Firebase</Logos>
+        <Logos src='public/assets/figma.png'>Figma</Logos>
     </div>
     </div>
   )

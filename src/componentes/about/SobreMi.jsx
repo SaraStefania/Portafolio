@@ -14,7 +14,7 @@ export default function SobreMi() {
     <>
 
       <div id='about' className='d-flex flex-wrap container-about'>
-          <img className='foto' src="src/assets/foto.jpeg" ></img>
+          <img className='foto' src="public/assets/foto.jpeg" ></img>
           <div className='container-sobreMi'>
               <Subtitulo>Sobre mi</Subtitulo>
               <Titulo>Quien soy</Titulo>
