@@ -13,7 +13,7 @@ export default function SobreMi() {
   return (
     <>
 
-      <div id='about' className='d-flex justify-content-center align-items-center container-about'>
+      <div id='about' className='d-flex flex-wrap container-about'>
           <img className='foto' src="src/assets/foto.jpeg" ></img>
           <div className='container-sobreMi'>
               <Subtitulo>Sobre mi</Subtitulo>

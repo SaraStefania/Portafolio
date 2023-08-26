@@ -10,3 +10,19 @@
     margin: 2vh 0 0 12vh;
     color: white;
 }
+@media (max-width: 991px) {
+    .container-experiencia{
+        padding: 5vh 5vh 5vh 5vh;;
+    }
+    .logos{
+        height: 4vh;
+        width: 4vh;
+        margin: 5vh 0 0 5vh ;
+    }
+    .titulos-logos{
+        margin: 0 0 0 5vh;
+        color: white;
+    }
+  }
+
+  

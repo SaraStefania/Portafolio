@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,900;1,300&display=swap');
 .container-proyectos{
     background-color: #0E0E0E;
-
     padding: 10vh;
 }
 .imagen{
@@ -33,7 +32,13 @@
     padding: 0 1vh 0 1vh;
     margin: 1vh;
 }
-.linkCard:hover{
-    background-color: #9B59B6;
-    color: #DCB4E2;
-}
+
+@media (max-width: 480px) {
+    .container-proyectos{
+        padding: 5vh;
+    }
+    .card{
+        margin: 0 0 4vh 0;
+    }
+
+  }

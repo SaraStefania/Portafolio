@@ -12,7 +12,7 @@ export default function Inicio() {
       <div className='container'>
         <p className='subtitulo'>Hola, mi nombre es</p>
         <p className='titulo'>Sara Sierra</p>
-        <Subtitulo fontSize='40px'>Full stack developer</Subtitulo>
+        <Subtitulo id='componenteSubtitulo'>Full stack developer</Subtitulo>
         <Link marginLeft='3vh' marginTop='5vh' href='src/assets/CV Sara Sierra.pdf' download>Descargar CV</Link>
 
       </div>

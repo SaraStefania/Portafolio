@@ -10,8 +10,47 @@
     margin-left: 15vh;
 }
 .aboutMe{
+    width: 80vh;
     color: white;
 }
 .container-habilidades{
     margin: 20px;
 }
+@media (max-width: 480px) {
+    .container-about{
+        padding: 10vh;
+    }
+    .foto{
+        height: 20vh;
+    }
+    .container-sobreMi{
+        margin-left: 0;
+    }
+    .aboutMe{
+        width: 30vh;
+    }
+ 
+  }
+  @media (min-width: 481px) and (max-width: 991px) {
+    .container-about{
+        padding: 5vh;
+    }
+    .foto{
+        height: 15vh;
+    }
+    .container-sobreMi{
+        margin-left: 2vh;
+    }
+    .aboutMe{
+        width: 40vh;
+    }
+ 
+  }
+
+  @media (min-width: 992px) and (max-width: 1300px) {
+
+    .aboutMe{
+        width: 60vh;
+    }
+ 
+  }
