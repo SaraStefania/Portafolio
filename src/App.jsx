@@ -3,7 +3,7 @@ import Inicio from './componentes/inicio/Inicio';
 import SobreMi from './componentes/about/SobreMi';
 import Experiencia from './componentes/experiencia/Experiencia';
 import Proyectos from './componentes/proyectos/Proyectos';
-import Footer from './componentes/footer/footer';
+import Footer from './componentes/footer/Footer';
 
 
 function App() {
