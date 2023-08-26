@@ -33,8 +33,8 @@ export default function Header() {
               onClick={(e) => handleNavLinkClick(e, 'experiencia')}>
               Habilidades
             </a>
-            <LogosHeader href='https://github.com/SaraStefania' src="public/assets/githubHeader.png"/>
-            <LogosHeader  href='https://www.linkedin.com/in/sara-stefania-sierra-ramos/' src="public/assets/linkedinHeader.png" />  
+            <LogosHeader href='https://github.com/SaraStefania' src="/assets/githubHeader.png"/>
+            <LogosHeader  href='https://www.linkedin.com/in/sara-stefania-sierra-ramos/' src="/assets/linkedinHeader.png" />  
           </Nav>
         </Navbar.Collapse>
       </Container>
