@@ -2,7 +2,7 @@
 import Header from './componentes/header/Header'
 import Inicio from './componentes/inicio/Inicio'
 import SobreMi from './componentes/about/SobreMi';
-import Proyectos from './componentes/proyectos/proyectos';
+import Proyectos from './componentes/proyectos/Proyectos';
 import Experiencia from './componentes/experiencia/Experiencia';
 import Footer from './componentes/footer/footer';
 
