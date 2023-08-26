@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import LogosHeader from './LogosHeader';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -29,7 +29,12 @@ export default function Header() {
               onClick={(e) => handleNavLinkClick(e, 'proyectos')}>
               Proyectos
             </a>
-            <Link className='navLink' to="#link">Contacto</Link>
+            <a className='navLink' href="/experiencia"
+              onClick={(e) => handleNavLinkClick(e, 'experiencia')}>
+              Habilidades
+            </a>
+            <LogosHeader href='https://github.com/SaraStefania' src="src/assets/githubHeader.png"/>
+            <LogosHeader  href='https://www.linkedin.com/in/sara-stefania-sierra-ramos/' src="src/assets/linkedinHeader.png" />  
           </Nav>
         </Navbar.Collapse>
       </Container>

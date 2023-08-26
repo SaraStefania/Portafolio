@@ -1,11 +1,12 @@
 .container-experiencia{
-    background-color: #0E0E0E;
-    padding: 10vh 10vh 1vh 10vh;;
+    background-color: black;
+    padding: 10vh 10vh 10vh 10vh;;
 }
 .logos{
     height: 10vh;
     margin: 10vh 0 0 10vh ;
 }
 .titulos-logos{
-    margin: 1vh 0 0 12vh;
+    margin: 2vh 0 0 12vh;
+    color: white;
 }

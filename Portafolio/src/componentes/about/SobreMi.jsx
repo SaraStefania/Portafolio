@@ -1,7 +1,6 @@
 import Subtitulo from '../reusable/Subtitulo';
 import Titulo from '../reusable/Titulo';
 import Link from '../reusable/Link';
-import Habilidades from '../reusable/habilidades';
 import { useEffect } from 'react';
 import './about.css'
 
@@ -28,22 +27,7 @@ export default function SobreMi() {
               <Link href='src/assets/CV Sara Sierra.pdf' download>Descargar CV</Link>
           </div>
       </div>
-     
-    <div className='container-about'>
-      <Titulo>Habilidades</Titulo>
-        <div className='d-flex flex-wrap container-habilidades'>
-          <Habilidades>React</Habilidades>
-          <Habilidades>Javascript</Habilidades>
-          <Habilidades>NodeJS</Habilidades>
-          <Habilidades>Java</Habilidades>
-          <Habilidades>SQL</Habilidades>
-          <Habilidades>CSS</Habilidades>
-          <Habilidades>HTML</Habilidades>
-          <Habilidades>Github</Habilidades>
-          <Habilidades>Git</Habilidades>
-          <Habilidades>Firebase</Habilidades>
-        </div>
-    </div>
+
   </>
 
   )

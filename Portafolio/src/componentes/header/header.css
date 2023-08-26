@@ -20,3 +20,7 @@ img{
 .navLink:active{
   color: #E0B0FF;
 }
+.logos-header{
+    height: 3vh;
+    margin-left: 2vh;
+}

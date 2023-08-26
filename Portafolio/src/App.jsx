@@ -4,6 +4,7 @@ import Inicio from './componentes/inicio/Inicio'
 import SobreMi from './componentes/about/SobreMi';
 import Proyectos from './componentes/proyectos/proyectos';
 import Experiencia from './componentes/experiencia/Experiencia';
+import Footer from './componentes/footer/footer';
 
 
 function App() {
@@ -14,8 +15,10 @@ function App() {
     <Header/>
     <Inicio id='inicio'/>
     <SobreMi id='about'/>
-    <Proyectos id='proyectos'/>
     <Experiencia id='experiencia'/>
+    <Proyectos id='proyectos'/>
+   
+    <Footer/>
 
       
     </div>

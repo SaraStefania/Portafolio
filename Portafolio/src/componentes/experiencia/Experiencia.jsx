@@ -1,11 +1,15 @@
 import Subtitulo from '../reusable/Subtitulo'
 import Titulo from '../reusable/Titulo'
 import Logos from './Logos'
+import { useEffect } from 'react';
 import './experiencia.css'
 
 export default function Experiencia() {
+  useEffect(() => {
+    document.getElementById('experiencia').scrollIntoView({ behavior: 'smooth' });
+  }, []);
   return (
-    <div className='container-experiencia'>
+    <div id='experiencia' className='container-experiencia'>
     <Subtitulo>Mis habilidades</Subtitulo>
     <Titulo>Habilidades</Titulo>
     <div className='d-flex flex-wrap '>
