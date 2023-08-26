@@ -1,8 +1,8 @@
 import Header from './componentes/header/Header';
 import Inicio from './componentes/inicio/Inicio';
 import SobreMi from './componentes/about/SobreMi';
-import Proyectos from './componentes/proyectos/Proyectos';
 import Experiencia from './componentes/experiencia/Experiencia';
+import Proyectos from './componentes/proyectos/Proyectos';
 import Footer from './componentes/footer/footer';
 
 
@@ -16,7 +16,6 @@ function App() {
     <SobreMi id='about'/>
     <Experiencia id='experiencia'/>
     <Proyectos id='proyectos'/>
-   
     <Footer/>
 
       
