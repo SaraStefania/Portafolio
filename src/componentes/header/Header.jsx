@@ -16,7 +16,7 @@ export default function Header() {
     <Navbar expand="lg" className="bg-custom-color">
       <Container>
         <Navbar.Brand href="/">
-          <img src='public/assets/logoGato.png' alt="Logo" />
+          <img src='/assets/logoGato.png' alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
