@@ -24,7 +24,7 @@ export default function SobreMi() {
                   a diario. Esto me llevó a descubrir mi creatividad y capacidad para resolver problemas. 
                   Hoy, con la ayuda de la programación, soy capaz de expandir soluciones que agreguen valor a la sociedad.
               </p>
-              <Link href='src/assets/CV Sara Sierra.pdf' download>Descargar CV</Link>
+              <Link href='/assets/CV Sara Sierra.pdf' download>Descargar CV</Link>
           </div>
       </div>
 
